@@ -9,6 +9,7 @@ import os
 app = FastAPI()
 
 # Load base English generator (GPT-2)
+
 generator = pipeline("text-generation", model="gpt2-medium")
 
 # Load translators
