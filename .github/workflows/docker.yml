@@ -24,6 +24,6 @@ jobs:
       - name: 📦 Build & push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./backend
           push: true
           tags: priyam182003a/youtube-script-generator:latest
